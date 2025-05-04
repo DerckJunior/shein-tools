@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    background-image: url('imgs/capa-shein.jfif');
+    background-position: top;
+    background-position: bottom;
+    background-position: left;
+    background-position: right;
+    background-position: center;
+    height: 80px;
+}
+
+
+caixa {
+    width: 100%;
+}
+
+.investments--box--rates-content--card-one {
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+    border-radius: 10px;
+
+    /* background-color: blue; */
+
+
+
+    .rates--body--headers {
+        border-bottom: .1rem solid rgba(46, 54, 65, .2);
+        margin-top: 1.5rem;
+
+        /* background-color: red; */
+
+        display: flex;
+        justify-content: space-between;
+
+        span {
+
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 3.6rem;
+            color: #2e3641;
+        }
+
+
+
+        span.sell {
+            min-width: 7.2rem;
+        }
+
+
+        span:last-child {
+            padding-right: 0;
+        }
+
+    }
+
+    .rates--title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 3.6rem;
+        color: #2e3641;
+        border-bottom: .1rem solid rgba(46, 54, 65, .2);
+        margin-left: -2rem;
+        padding-left: 2rem;
+        margin-right: -2rem;
+        position: relative;
+    }
+
+    .rates--body {
+
+        .rates--body--values {
+
+            display: flex;
+            justify-content: space-between;
+            /* background-color: black; */
+
+        }
+
+
+        .rates--body--date {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+
+}
+
+input {
+    outline: 1px solid black;
+}
+
+
+
+#valor span {
+    display: flex;
+    flex-direction: column;
+}
